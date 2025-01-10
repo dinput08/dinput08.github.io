@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIPP Kemenhub</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid bg-primary text-white py-3">
+        <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+                <img src="ampera.png" alt="SIPP Daerah Palembang" class="img-fluid logo-ampera mr-2">
+                <span class="text-white">SIPP Palembang </span>
+            </div>
+            <div class="col-md-9 text-right">
+                <a href="index.html" class="btn btn-light mr-2">Beranda</a>
+                <a href="berita.html" class="btn btn-light mr-2">Berita</a>
+                <a href="kontak.html" class="btn btn-light mr-2">Kontak</a>
+                <a href="login.html" class="btn btn-light">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <h1 class="text-center mb-4">Sistem Informasi Pelayanan Publik</h1>
+        <p class="text-center mb-4">SIPP merupakan media informasi elektronik satu pintu meliputi penyimpanan dan pengelolaan informasi serta mekanisme penyampaian informasi dari penyelenggara pelayanan publik kepada masyarakat.</p>
+
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h2 class="mb-3">Cari Layanan berdasarkan Kata Kunci</h2>
+                <div class="input-group">
+                    <select class="custom-select mr-2">
+                        <option selected>Pilih Tipe Instansi</option>
+                        <option value="1">Instansi 1</option>
+                        <option value="2">Instansi 2</option>
+                    </select>
+                    <select class="custom-select mr-2">
+                        <option selected>Pilih Layanan</option>
+                        <option value="1">Layanan 1</option>
+                        <option value="2">Layanan 2</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">Cari</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="mb-3">Daftar Layanan</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama Layanan</th>
+                            <th>Instansi</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Layanan A</td>
+                            <td>Instansi 1</td>
+                            <td><a href="#" class="btn btn-info">Detail</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Layanan B</td>
+                            <td>Instansi 2</td>
+                            <td><a href="#" class="btn btn-info">Detail</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid bg-dark text-white py-3">
+        <div class="text-center">
+            <p>&copy; 2023 SIPP Palembang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
